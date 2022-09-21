@@ -1,1 +1,134 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    color: #2f2f2f;
+    background-color: #f9f7f1;
+    text-align: center;
+    
+}
+
+header{
+    font-family: 'Abril Fatface', sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 72px;
+    margin-bottom: 20px;
+
+}
+
+.date{
+    margin-top: 20px;
+    text-align: left;
+} 
+
+
+p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+h2{
+color: #000; 
+font-family: 'Droid Serif', sans-serif;
+padding: 30px;
+text-align: left;
+padding-bottom: 10px;
+
+}
+ 
+ h5{
+    color: red; 
+    font-family: 'Droid Serif', sans-serif;
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    
+ }
+
+ 
+
+nav{
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 1px;
+    margin: 20px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color:   #777;
+  }
+  
+
+  h4{
+
+    text-align: left;   
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:  #777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgba(17, 17, 17, 0.055);
+  }
+
+
+
+@font-face {
+    font-family: "Roboto Slab";
+    src: url(sansation_bold.woff);
+    font-weight: bold;
+  }
+
+
+.newspaper-container
+{
+    border-radius: 25px;
+    width: 700px;
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+    background-color: #fff;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto Slab;
+    font-size: larger;
+}
+.collumn{
+    font-size: 14px;
+    line-height: 20px;
+    width: 45%;
+    display: inline-block;
+    padding: 30px 30px 30px 10px;
+    vertical-align: top;
+    margin-bottom: 50px;
+    transition: all .7s;
+}
+
+
+
